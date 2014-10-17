@@ -36,7 +36,6 @@
 
     module.addInitializer(function() {
         Mibew.Objects.Collections.messages.on('add', function(model) {
-            console.log('asdadad');
             $.titleAlert(Mibew.Localization.trans('New message'), {
                 requireBlur: true,
                 stopOnFocus: true,
