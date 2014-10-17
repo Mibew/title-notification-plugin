@@ -1,0 +1,9 @@
+{
+    "name": "title-notification-plugin",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "jquery-titlealert": "https://github.com/heyman/jquery-titlealert.git#b50a20b30708f2e8f3396add52c83d6e5069623e"
+    },
+    "devDependencies": {}
+}

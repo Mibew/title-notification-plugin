@@ -1,0 +1,8 @@
+# Do not index node.js modules that are used for building
+node_modules
+
+# Do not index bower components
+vendor
+
+# Do not index releases
+release

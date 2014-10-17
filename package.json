@@ -1,0 +1,19 @@
+{
+    "name": "title-notification-plugin",
+    "version": "0.1.0",
+    "description": "A plugin for Mibew that provides notification about new messages and new visitors in window title.",
+    "private": true,
+    "bugs": {
+        "url": "https://github.com/mibew/title-notification-plugin/issues"
+    },
+    "devDependencies": {
+        "bower": "~1.3.12",
+        "gulp": "~3.8.8",
+        "event-stream": "~3.1.7",
+        "gulp-zip": "~2.0.2",
+        "gulp-tar": "~1.1.0",
+        "gulp-gzip": "~0.0.8",
+        "gulp-chmod": "~1.1.1",
+        "gulp-rename": "~1.2.0"
+    }
+}
