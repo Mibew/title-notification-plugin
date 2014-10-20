@@ -24,6 +24,7 @@
 namespace Mibew\Mibew\Plugin\TitleNotification;
 
 use Mibew\EventDispatcher\EventDispatcher;
+use Mibew\EventDispatcher\Events;
 use Symfony\Component\HttpFoundation\Request;
 
 /**
@@ -92,7 +93,7 @@ class Plugin extends \Mibew\Plugin\AbstractPlugin implements \Mibew\Plugin\Plugi
     {
         // Attach CSS and JS files of the plugin to chat window.
         $dispatcher = EventDispatcher::getInstance();
-        $dispatcher->attachListener('pageAddJS', $this, 'attachJsFiles');
+        $dispatcher->attachListener(Events::PAGE_ADD_JS, $this, 'attachJsFiles');
     }
 
     /**
