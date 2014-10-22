@@ -2,7 +2,7 @@
 /*
  * This file is a part of Mibew Title Notification Plugin.
  *
- * Copyright 2014 the original author or authors.
+ * Copyright 2014 Dmitriy Simushev <simushevds@gmail.com>.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
