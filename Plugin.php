@@ -119,6 +119,16 @@ class Plugin extends \Mibew\Plugin\AbstractPlugin implements \Mibew\Plugin\Plugi
     }
 
     /**
+     * Specify version of the plugin.
+     *
+     * @return string Plugin's version.
+     */
+    public static function getVersion()
+    {
+        return '0.1.0';
+    }
+
+    /**
      * Specify dependencies of the plugin.
      *
      * @return array List of dependencies
