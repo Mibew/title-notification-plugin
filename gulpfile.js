@@ -28,7 +28,7 @@ gulp.task('prepare-release', ['bower'], function() {
             .pipe(tar('title-notification-plugin-' + version + '.tar'))
             .pipe(gzip())
     )
-    .pipe(chmod(0644))
+    .pipe(chmod(644))
     .pipe(gulp.dest('release'));
 });
 
