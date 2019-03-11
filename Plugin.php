@@ -107,7 +107,7 @@ class Plugin extends \Mibew\Plugin\AbstractPlugin implements \Mibew\Plugin\Plugi
         $need_chat_plugin = $this->needChatPlugin($args['request']);
 
         if ($need_users_plugin || $need_chat_plugin) {
-            $base_path = $this->getFilesPath();
+            $base_path = str_replace(DIRECTORY_SEPARATOR, '/', $this->getFilesPath());
             $args['js'][] = $base_path . '/vendor/jquery-titlealert/jquery.titlealert.js';
 
             if ($need_users_plugin) {
